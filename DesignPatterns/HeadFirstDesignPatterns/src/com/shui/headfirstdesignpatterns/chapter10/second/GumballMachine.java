@@ -52,6 +52,10 @@ public class GumballMachine {
         }
     }
 
+    public State getState() {
+        return state;
+    }
+
     public State getSoldOutState() {
         return soldOutState;
     }
